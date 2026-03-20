@@ -2,4 +2,6 @@ import random
 
 def random_number():
 
-    print(random.randint(1, 5))
+    upper_bound = input("What's the upper bound?")
+
+    print(random.randint(1, upper_bound))
